@@ -11,28 +11,28 @@ This project investigates the potential of Butina clustering to enhance virtual 
 
 ## Installation:
 
-This project utilizes Python libraries like pandas, scikit-learn, and RDKit. Ensure you have these installed using '''pip install pandas scikit-learn rdkit'''.
+This project utilizes Python libraries like pandas, scikit-learn, and RDKit. Ensure you have these installed using ```pip install pandas scikit-learn rdkit```.
 
 ## Usage:
 
 Download the repository and navigate to the project directory.
 Execute the Jupyter Notebooks in the following order:
-*'''compound_data_aquisition.ipynb''' (Acquires compound data)
-*'''Molecular_filtering.ipynb''' (Performs data pre-processing and filtering)
-*'''Ligand_based_screening.ipynb''' (Conducts virtual screening with and without clustering)
-*'''compound_clustering.ipynb''' (implements the butina clustering algorithm)
+* ```compound_data_aquisition.ipynb``` (Acquires compound data)
+* ```Molecular_filtering.ipynb``` (Performs data pre-processing and filtering)
+* ```Ligand_based_screening.ipynb``` (Conducts virtual screening with and without clustering)
+* ```compound_clustering.ipynb``` (implements the butina clustering algorithm)
 
-##R esults Visualization:
+## Results Visualization:
 
-The '''Ligand_based_screening.ipynb''' notebook generates enrichment plots that visually depict the effectiveness of virtual screening with and without clustering.
+The ```Ligand_based_screening.ipynb``` notebook generates enrichment plots that visually depict the effectiveness of virtual screening with and without clustering.
 
 ## Future Work:
 
 This project establishes a foundation for further exploration. Future work could involve:
 
-*Evaluating alternative clustering algorithms and parameters.
-*Incorporating machine learning techniques for improved virtual screening.
-*Testing the approach with a broader range of datasets and cancer types.
+* Evaluating alternative clustering algorithms and parameters.
+* Incorporating machine learning techniques for improved virtual screening.
+* Testing the approach with a broader range of datasets and cancer types.
 
 
 ## Contact:
